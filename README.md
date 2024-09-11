@@ -21,4 +21,7 @@ npm install react-redux
 npm install @reduxjs/toolkit
 
 npm install react-icons --save
+
+npm install react-syntax-highlighter
+
 ```

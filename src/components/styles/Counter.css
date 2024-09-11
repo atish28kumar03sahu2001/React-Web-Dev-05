@@ -1,5 +1,5 @@
 .PROB_HEAD_DIV{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 10px;
     height: 40vh;
     display: flex;
@@ -14,7 +14,7 @@
     font-size: 30px;
 }
 .PROB_CN_DIV{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 10px;
     height: 40vh;
     display: flex;
@@ -33,4 +33,48 @@
     margin: 10px;
     font-size: 30px;
     font-weight: 600;
+}
+.PROB_CODE_DIV{
+    /* border: 1px solid black; */
+    margin: 10px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.PROB_CODE_DIV_CODE{
+    background-color: rgb(27, 25, 24);
+    border-radius: 10px;
+    width: 40%;
+}
+.PROB_CODE_DIV_CODE_BTN{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.PROB_CODE_DIV_CODE_BTN_btn{
+    margin: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    background-color: rgb(6, 52, 74);
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1024px){
+    .PROB_CODE_DIV{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100vh;
+    }   
+    .PROB_CODE_DIV_CODE{
+        width: 90%;
+        margin: 10px;
+    }
 }
