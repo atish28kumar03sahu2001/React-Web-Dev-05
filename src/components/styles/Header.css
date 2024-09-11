@@ -1,0 +1,16 @@
+.DIV_HEADER_H1_DIV{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 52, 74);
+}
+.DIV_HEADER_H1_DIV_H1{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+}

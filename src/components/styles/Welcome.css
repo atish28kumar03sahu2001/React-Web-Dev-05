@@ -1,0 +1,63 @@
+.DIV_WEL_D{
+    margin: 10px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.DIV_WEL_D_W{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(6, 52, 74);
+}
+.DIV_ABT_D{
+    margin: 10px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.DIV_ABT_D_PP{
+    text-align: justify;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+.DIV_LNK_D{
+    margin: 10px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.DIV_LNK_D_L{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(6, 52, 74);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 600px) {
+    .DIV_ABT_D{
+        height: 80vh;
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    .DIV_ABT_D{
+        height: 100vh;
+    }
+    
+}

@@ -1,0 +1,36 @@
+.PROB_HEAD_DIV{
+    border: 1px solid black;
+    margin: 10px;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PROB_HEAD_DIV_H1{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    color: rgb(6, 52, 74);
+    font-size: 30px;
+}
+.PROB_CN_DIV{
+    border: 1px solid black;
+    margin: 10px;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PROB_CN_DIV_BTN{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(6, 52, 74);
+    color: white;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
