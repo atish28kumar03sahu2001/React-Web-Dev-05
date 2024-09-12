@@ -24,4 +24,6 @@ npm install react-icons --save
 
 npm install react-syntax-highlighter
 
+npm install vite-plugin-netlify --save-dev
+
 ```

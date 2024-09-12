@@ -4,8 +4,8 @@ export const Problem = () => {
     return (
         <>
             <h1>List</h1>
-            <Link to="/counter">1. Increment & Decrement Operator</Link>
-            <p>2. Arithmetic Operation</p>
+            <Link to="/counter">1. Increment & Decrement Operator</Link><br />
+            <Link to="/arithmetic">2. Arithmetic Operation</Link><br />
             <p>3. Even & Odd Number</p>
             <p>4. Greatest & Smallest Number</p>
             <p>5. Age Of A Person</p>

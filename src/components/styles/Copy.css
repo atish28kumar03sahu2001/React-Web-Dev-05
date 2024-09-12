@@ -1,0 +1,18 @@
+.PROB_CODE_DIV_CODE_BTN{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.PROB_CODE_DIV_CODE_BTN_btn{
+    margin: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    background-color: rgb(6, 52, 74);
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,5 +1,4 @@
 .PROB_HEAD_DIV{
-    /* border: 1px solid black; */
     margin: 10px;
     height: 40vh;
     display: flex;
@@ -14,7 +13,6 @@
     font-size: 30px;
 }
 .PROB_CN_DIV{
-    /* border: 1px solid black; */
     margin: 10px;
     height: 40vh;
     display: flex;
@@ -35,7 +33,6 @@
     font-weight: 600;
 }
 .PROB_CODE_DIV{
-    /* border: 1px solid black; */
     margin: 10px;
     height: 50vh;
     display: flex;

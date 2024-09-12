@@ -4,6 +4,7 @@ import { decrementAction, incrementAction, initialState, Reducer } from './Reduc
 import { Counter1, Counter2 } from '../code/Code';
 import { Light as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { atelierForestDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { Copy } from "../pages/Copy";
 
 export const Counter = () => {
     const [state, dispatch] = useReducer(Reducer, initialState);
@@ -15,14 +16,6 @@ export const Counter = () => {
     const Decrement = () => {
         dispatch(decrementAction(1));
     };
-    const copyToClipboard = (code) => {
-        navigator.clipboard.writeText(code).then(() => {
-            console.log("Code Coppied!");
-        }).catch(err => {
-            console.error("Could not copy text: ", err);
-        });
-    };
-
     return (
         <>
             <div className='PROB_HEAD_DIV'>
@@ -39,9 +32,7 @@ export const Counter = () => {
                         <SyntaxHighlighter language="javascript" style={atelierForestDark} codeTagProps={{ style: { fontSize: '14px' } }} >
                             {cnt.code}
                         </SyntaxHighlighter>
-                        <div className='PROB_CODE_DIV_CODE_BTN'>
-                            <button className='PROB_CODE_DIV_CODE_BTN_btn' onClick={() => copyToClipboard(cnt.code)}>COPY</button>
-                        </div>
+                        <Copy code={cnt.code} />
                     </div>
                 ))}
             </div>
@@ -51,9 +42,7 @@ export const Counter = () => {
                         <SyntaxHighlighter language="javascript" style={atelierForestDark} codeTagProps={{ style: { fontSize: '14px' } }}>
                             {cnt.code}
                         </SyntaxHighlighter>
-                        <div className='PROB_CODE_DIV_CODE_BTN'>
-                            <button className='PROB_CODE_DIV_CODE_BTN_btn' onClick={() => copyToClipboard(cnt.code)}>COPY</button>
-                        </div>
+                        <Copy code={cnt.code} />
                     </div>
                 ))}
             </div>

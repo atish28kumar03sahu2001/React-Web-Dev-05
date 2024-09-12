@@ -65,3 +65,74 @@ export let Counter2 = [
     }`
     }
 ]
+
+export let Arithmetic1 = [
+    {
+        id: 1,
+        code: `
+    const prompt = require("prompt-sync")();
+    let num1 = parseInt(prompt("Enter Num1 : "));
+    let num2 = parseInt(prompt("Enter Num2 : "));
+    let choice = parseInt(prompt("Enter Choice : "));
+    switch (choice) {
+        case 1:
+            console.log(\`\${num1} + \${num2} : \${num1 + num2}\`);
+            break;
+        case 2:
+            console.log(\`\${num1} - \${num2} : \${num1 - num2}\`);
+            break;
+        case 3:
+            console.log(\`\${num1} * \${num2} : \${num1 * num2}\`);
+            break;
+        case 4:
+            console.log(\`\${num1} / \${num2} : \${num1 / num2}\`);
+            break;
+        case 5:
+            console.log(\`\${num1} % \${num2} : \${num1 % num2}\`);
+            break;
+        default:
+            console.log("Invalid Option!");
+            break;
+    }`,
+    },
+    {
+        id: 2,
+        code: `
+    import java.util.Scanner;
+    public class Test6	{
+	public static void main(String args[])	{
+            Scanner in = new Scanner(System.in);
+
+            System.out.println("Enter Num1 : ");
+            int num1 = in.nextInt();
+
+            System.out.println("Enter Num2 : ");
+            int num2 = in.nextInt();
+
+            System.out.println("Enter Choice : ");
+            int choice = in.nextInt();
+
+            switch(choice)	{
+                case 1 : 
+                    System.out.println(num1 + "+" + num2 + ":" + (num1 + num2));
+                    break;
+                case 2 :
+                    System.out.println(num1 + "-" + num2 + ":" + (num1 - num2));
+                    break;
+                case 3 :
+                    System.out.println(num1 + "*" + num2 + ":" + (num1 * num2));
+                    break;
+                case 4 :
+                    System.out.println(num1 + "/" + num2 + ":" + (num1 / num2));
+                    break;
+                case 5 :
+                    System.out.println(num1 + "%" + num2 + ":" + (num1 % num2));
+                    break;
+                default :
+                    System.out.println("Invalid Option!");
+                    break;
+            }
+        }
+    }`
+    }
+]
