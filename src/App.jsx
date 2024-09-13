@@ -8,6 +8,7 @@ import { Problem } from './components/pages/Problem';
 import { Counter } from './components/counter/Counter';
 import { Arithmetic } from './components/arithmetic/Arithmetic';
 import { EvenOdd } from './components/evenodd/EvenOdd';
+import { Greatest } from './components/greatest/Greatest';
 export const App = () => {
     return (
         <>
@@ -19,6 +20,7 @@ export const App = () => {
                     <Route path='/counter' element = {<Counter />} />
                     <Route path="/arithmetic" element={<Arithmetic />} />
                     <Route path="/evenodd" element={<EvenOdd />} />
+                    <Route path="/greatest" element={<Greatest />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

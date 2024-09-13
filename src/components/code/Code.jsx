@@ -161,3 +161,33 @@ export let EVENODD = [
     }`
     }
 ]
+
+export let GREATEST = [
+    {
+        id: 1,
+        code: `
+    const prompt = require("prompt-sync")();
+    let num1 = parseInt(prompt("Enter Num1 : "));
+    let num2 = parseInt(prompt("Enter Num2 : "));
+    if(num1 > num2) console.log(\`\${num1} is greater than \${num2}\`);
+    else    console.log(\`\${num2} is greater than \${num1}\`);`
+    },
+    {
+        id: 2,
+        code: `
+    import java.util.Scanner;
+    public class Test16	{
+        public static void main(String args[])	{
+            Scanner in = new Scanner(System.in);
+            System.out.println("Enter Num1 : ");
+            int num1 = in.nextInt();
+
+            System.out.println("Enter Num2 : ");
+            int num2 = in.nextInt();
+
+            if(num1 > num2)	System.out.println(num1+" is greater than "+num2);
+            else System.out.println(num2+" is greater than "+num1);
+        }
+    }`
+    }
+]
