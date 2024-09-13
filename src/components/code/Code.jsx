@@ -136,3 +136,28 @@ export let Arithmetic1 = [
     }`
     }
 ]
+
+export let EVENODD = [
+    {
+        id: 1,
+        code: `
+    const prompt = require("prompt-sync")();
+    let num = parseInt(prompt("Enter Number : "));
+    if (num % 2 === 0)  console.log("Even");
+    else console.log("Odd");`
+    },
+    {
+        id: 2,
+        code: `
+    import java.util.Scanner;
+    public class Test7	{
+        public static void main(String args[])	{
+            Scanner in = new Scanner (System.in);
+            System.out.println("Enter Number : ");
+            int num = in.nextInt();
+            if(num % 2 == 0)	System.out.println("Even");	
+            else 	System.out.println("Odd");
+        }
+    }`
+    }
+]

@@ -1,0 +1,62 @@
+.DIV_FORM_D_EO{
+    margin: 10px;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.DIV_FORM_D_EO_FRM{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FRM_IP{
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid black;
+    margin: 10px;
+}
+.FRM_BTN{
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    background-color: rgb(6, 52, 74);
+    font-size: 14px;
+    font-weight: 600;
+}
+.EO_P{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-weight: 600;
+}
+.EO_CODE_DIV{
+    margin: 10px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.PROB_CODE_D_C{
+    background-color: rgb(27, 25, 24);
+    border-radius: 10px;
+    margin: 10px;
+    width: 70%;
+}
+@media screen and (max-width: 768px){
+    .PROB_CODE_D_C{
+        width: 90%;
+    }
+}

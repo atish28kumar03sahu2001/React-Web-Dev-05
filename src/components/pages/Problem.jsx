@@ -6,16 +6,16 @@ export const Problem = () => {
             <h1>List</h1>
             <Link to="/counter">1. Increment & Decrement Operator</Link><br />
             <Link to="/arithmetic">2. Arithmetic Operation</Link><br />
-            <p>3. Even & Odd Number</p>
-            <p>4. Greatest & Smallest Number</p>
-            <p>5. Age Of A Person</p>
-            <p>6. Leap Year Or Not</p>
-            <p>7. Multiplication Table</p>
-            <p>8. Even Or Odd Number From R1 to R2</p>
-            <p>9. Positive Or Negative Number</p>
-            <p>10. Swapping Of Two Numbers</p>
-            <p>11. Fibonacci Series</p>
-            <p>12. Average (Mean) Of Numbers</p>
+            <Link to="/evenodd">3. Even & Odd Number</Link><br />
+            <Link>4. Greatest & Smallest Number</Link><br />
+            <Link>5. Age Of A Person</Link><br />
+            <Link>6. Leap Year Or Not</Link><br />
+            <Link>7. Multiplication Table</Link><br />
+            <Link>8. Even Or Odd Number From R1 to R2</Link><br />
+            <Link>9. Positive Or Negative Number</Link><br />
+            <Link>10. Swapping Of Two Numbers</Link><br />
+            <Link>11. Fibonacci Series</Link><br />
+            <Link>12. Average (Mean) Of Numbers</Link><br />
             <p>13. Mode Of Numbers</p>
             <p>14. Median Of Numbers</p>
             <p>15. Calculate Sum Of R1 to R2</p>

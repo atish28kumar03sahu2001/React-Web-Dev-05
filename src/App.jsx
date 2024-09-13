@@ -7,6 +7,7 @@ import {Footer} from './components/pages/Footer';
 import { Problem } from './components/pages/Problem';
 import { Counter } from './components/counter/Counter';
 import { Arithmetic } from './components/arithmetic/Arithmetic';
+import { EvenOdd } from './components/evenodd/EvenOdd';
 export const App = () => {
     return (
         <>
@@ -17,6 +18,7 @@ export const App = () => {
                     <Route path="/Problem" element={<Problem />} />
                     <Route path='/counter' element = {<Counter />} />
                     <Route path="/arithmetic" element={<Arithmetic />} />
+                    <Route path="/evenodd" element={<EvenOdd />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>
