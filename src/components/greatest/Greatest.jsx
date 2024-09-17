@@ -17,6 +17,9 @@ export const Greatest = () => {
 
     return (
         <>
+            <div className='PROB_HEAD_DIV'>
+                <h1 className='PROB_HEAD_DIV_H1'>Greatest & Smalles Number</h1>
+            </div>
             <div className="DIV_GRT_FRM">
                 <form onSubmit={HandleSubmit} className="FRM_GRT_F">
                     <input className="IP_FRM" required type="text" placeholder="Input1" value={state.num1} onChange={e => dispatch({ type: SET_NUM1, payload: parseInt(e.target.value) })} />

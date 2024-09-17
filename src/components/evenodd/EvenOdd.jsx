@@ -18,6 +18,9 @@ export const EvenOdd = () => {
     };
     return (
         <>
+            <div className='PROB_HEAD_DIV'>
+                <h1 className='PROB_HEAD_DIV_H1'>Even & Odd Number</h1>
+            </div>
             <div className="DIV_FORM_D_EO">
                 <form onSubmit={SubmitHandler} className="DIV_FORM_D_EO_FRM">
                     <input className="FRM_IP" required type="text" placeholder="Enter Number" value ={input} onChange={e=>setInput(e.target.value)} />

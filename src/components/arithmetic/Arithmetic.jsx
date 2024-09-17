@@ -17,6 +17,9 @@ export const Arithmetic = () => {
     }
     return (
         <>
+            <div className='PROB_HEAD_DIV'>
+                <h1 className='PROB_HEAD_DIV_H1'>Arithmetic Operation</h1>
+            </div>
             <div className="ARTH_DIV_FRM_DIIV">
                 <form onSubmit={HandleSubmit} className="ARTH_DIV_FRM_DIIV_D">
                     <div>

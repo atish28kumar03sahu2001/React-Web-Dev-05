@@ -8,7 +8,7 @@ export const Problem = () => {
             <Link to="/arithmetic">2. Arithmetic Operation</Link><br />
             <Link to="/evenodd">3. Even & Odd Number</Link><br />
             <Link to="/greatest">4. Greatest & Smallest Number</Link><br />
-            <Link>5. Age Of A Person</Link><br />
+            <Link to="/ageofperson">5. Age Of A Person</Link><br />
             <Link>6. Leap Year Or Not</Link><br />
             <Link>7. Multiplication Table</Link><br />
             <Link>8. Even Or Odd Number From R1 to R2</Link><br />
