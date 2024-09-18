@@ -1,0 +1,73 @@
+.MULT_DIV_FRM_D{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.MULT_DIV_FRM_D_FORM{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.MUL_LBL{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px;
+}
+.MUL_IP{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+}
+.MULT_BTN{
+    border: none;
+    outline: none;
+    background: none;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(6, 52, 74);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.TABLE_DIV{
+    margin: 10px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TABLE_DIV_T{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 30vh;
+    overflow: scroll;
+    height: 50vh;
+}
+.TABLE_DIV_T::-webkit-scrollbar{display: none;}
+.DIV_MULT_TABLE_P{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-weight: 600;
+}
+@media screen and (max-width: 425px) {
+    .FRM_IP_LBL_DIV{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

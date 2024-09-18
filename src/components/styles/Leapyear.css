@@ -1,62 +1,61 @@
-.DIV_FORM_D_EO{
+.DIV_LEAP_D{
     margin: 10px;
-    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
+    height: 30vh;
 }
-.DIV_FORM_D_EO_FRM{
-    width: 100%;
+.DIV_LEAP_D_FRM{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.FRM_IP{
-    width: 80px;
-    height: 40px;
+.LEAP_LBL{
     font-size: 14px;
     font-weight: 600;
-    border: 1px solid black;
     margin: 10px;
 }
-.FRM_BTN{
+.LEAP_IP{
+    margin: 10px;
     width: 80px;
     height: 40px;
-    margin: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.LEAP_BTN{
     border: none;
     outline: none;
     background: none;
-    color: white;
+    width: 100px;
+    height: 40px;
     background-color: rgb(6, 52, 74);
+    color: white;
     font-size: 14px;
     font-weight: 600;
+    margin: 10px;
+    border-radius: 10px;
     cursor: pointer;
 }
-.EO_P{
+.LEAP_P_PP{
     text-align: center;
     text-wrap: wrap;
     word-wrap: break-word;
     font-size: 14px;
     font-weight: 600;
 }
-.EO_CODE_DIV{
+.LEAP_CODE_DIV{
     margin: 10px;
-    height: 80vh;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
+    height: 70vh;
 }
-.PROB_CODE_D_C{
-    background-color: rgb(27, 25, 24);
-    border-radius: 10px;
-    margin: 10px;
-    width: 70%;
-}
-@media screen and (max-width: 768px){
-    .PROB_CODE_D_C{
-        width: 90%;
-    }
+@media screen and (max-width: 1200px){
+    .LEAP_CODE_DIV{
+        flex-direction: column;
+        height: 130vh;
+    }   
 }

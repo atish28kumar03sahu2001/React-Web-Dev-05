@@ -264,3 +264,229 @@ export let Age_Person = [
     }`
     }
 ]
+
+export let LeapYear = [
+    {
+        id: 1,
+        code: `
+    const prompt = require("prompt-sync")();
+    let year = parseInt(prompt("Enter Year : "));
+    if((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0)
+        console.log(\`\${year} is leap year\`);
+    else
+        console.log(\`\${year} is not leap year\`);`
+    },
+    {
+        id: 2,
+        code: `
+    import java.util.Scanner;
+    public class Test10	{
+        public static void main(String args[])	{
+            Scanner in = new Scanner(System.in);
+            System.out.println("Enter Year : ");
+            int year = in.nextInt();
+            if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+                System.out.println("Leap Year");
+            else
+                System.out.println("Not Leap Year");
+        }
+    }`
+    }
+]
+
+export let TableMultiplication = [
+    {
+        id: 1,
+        code: `
+    const prompt = require("prompt-sync")();
+    let num = parseInt(prompt("Enter Input : "));
+    let range = parseInt(prompt("Enter Range : "));
+    for (let i = 1; i <= range; i++) {
+        console.log(\`\${num} * \${i} : \${num * i}\`);
+    }`
+    },
+    {
+        id: 2,
+        code: `
+    import java.util.Scanner;
+    public class Test{
+        public static void main(String []args){
+            Scanner in = new Scanner(System.in);
+            System.out.println("Enter Input: ");
+            int num = in.nextInt();
+            
+            System.out.println("Enter Range : ");
+            int range = in.nextInt();
+            
+            for(int i = 1; i <= range; i++){
+                System.out.println(num+" * "+i+" = "+(num * i));
+            }
+        }
+    }`
+    }
+]
+
+export let EvenOddR = [
+    {
+        id: 1,
+        code: `
+    const prompt = require("prompt-sync")();
+    let r1 = parseInt(prompt("Enter Range1 : "));
+    let r2 = parseInt(prompt("Enter Range2 : "));
+    for(let i = r1; i <= r2; i++)   {
+        if(i % 2 === 0) console.log(i);
+    }
+    console.log("-------------------");
+    for(let i = r1; i <= r2; i++)   {
+        if(i % 2 !== 0) console.log(i);
+    }`
+    },
+    {
+        id: 2,
+        code: `
+    import java.util.Scanner;
+    public class Test9	{
+        public static void main(String args[])	{
+            Scanner in = new Scanner(System.in);
+
+            System.out.println("Enter Range1 : ");
+            int r1 = in.nextInt();
+
+            System.out.println("Enter Range2 : ");
+            int r2 = in.nextInt();
+            
+            for(int i = r1; i <= r2; i++)	{
+                if(i % 2 == 0)	System.out.println(i);
+            }
+            System.out.println("---------------------------");
+            for(int i = r1; i <= r2; i++)	{
+                if(i % 2 != 0)	System.out.println(i);
+            }
+        }
+    }`
+    }
+]
+
+export let POSNEG = [
+    {
+        id: 1,
+        code: `
+    const prompt = require("prompt-sync")();
+    let n = parseInt(prompt("Enter Number : "));
+    if(n < 0) console.log(\`\${n} is a negative number\`);
+    else if (n > 0) console.log(\`\${n} is a positive number\`);
+    else console.log(\`\${n} value is 0\`);`
+    },
+    {
+        id: 2,
+        code: `
+    import java.util.Scanner;
+    public class Test11	{
+        public static void main(String args[])	{
+            Scanner in = new Scanner(System.in);
+            System.out.println("Enter Number : ");
+            int n = in.nextInt();
+
+            if(n > 0)	System.out.println(n+" is a positive number");
+            else if (n < 0) System.out.println(n+" is a negative number");
+            else System.out.println(n+" is 0");
+        }
+    }`
+    }
+]
+
+export let SWAPPING = [
+    {
+        id: 1,
+        code: `
+    const prompt = require("prompt-sync")();
+    let num1 = parseInt(prompt("Enter Num1 : "));
+    let num2 = parseInt(prompt("Enter Num2 : "));
+    console.log(\`num1 : \${num1}  , num2 : \${num2}\`);
+
+    let swap = num1;
+    num1 = num2;
+    num2 = swap;
+    console.log(\`num1 : \${num1}  , num2 : \${num2}\`);
+
+    let swap1 = num2;
+    num2 = num1;
+    num1 = swap1;
+    console.log(\`num1 : \${num1}  , num2 : \${num2}\`);`
+    },
+    {
+        id: 2,
+        code: `
+    const prompt = require("prompt-sync")();
+    let num1 = parseInt(prompt("Enter Num1 : "));
+    let num2 = parseInt(prompt("Enter Num2 : "));
+    console.log(\`num1 : \${num1}  , num2: \${num2}\`);
+
+    num1 = num1 + num2;
+    num2 = num1 - num2;
+    num1 = num1 - num2;
+    console.log(\`num1 : \${num1}  , num2: \${num2}\`);
+
+    num2 = num2 + num1;
+    num1 = num2 - num1;
+    num2 = num2 - num1;
+    console.log(\`num1 : \${num1}  , num2: \${num2}\`);`
+    }
+]
+
+export let SWAPPING1 =[
+    {
+        id: 1,
+        code: `
+    import java.util.Scanner;
+    public class Test13	{
+        public static void main(String args[])	{
+            Scanner in = new Scanner(System.in);
+
+            System.out.println("Enter Num1 : ");
+            int num1 = in.nextInt();
+
+            System.out.println("Enter Num2 : ");
+            int num2 = in.nextInt();
+            System.out.println("Num1 : "+num1+" Num2 : "+num2);
+
+            int swap = num1;
+            num1 = num2;
+            num2 = swap;
+            System.out.println("Num1 : "+num1+" Num2 : "+num2);
+            
+            int swap2 = num2;
+            num2 = num1;
+            num1 = swap2;
+            System.out.println("Num1 : "+num1+" Num2 : "+num2);
+        }
+    }`
+    },
+    {
+        id: 2,
+        code: `
+    import java.util.Scanner;
+    public class Test14	{
+        public static void main(String args[])	{
+            Scanner in = new Scanner(System.in);
+
+            System.out.println("Enter Num1 : ");
+            int num1 = in.nextInt();
+
+            System.out.println("Enter Num2 : ");
+            int num2 = in.nextInt();
+            System.out.println("Num1 : "+num1+" Num2 : "+num2);
+
+            num1 = num1 + num2;
+            num2 = num1 - num2;
+            num1 = num1 - num2;
+            System.out.println("Num1 : "+num1+" Num2 : "+num2);
+
+            num2 = num2 + num1;
+            num1 = num2 - num1;
+            num2 = num2 - num1; 
+            System.out.println("Num1 : "+num1+" Num2 : "+num2);
+        }
+    }`
+    }
+]

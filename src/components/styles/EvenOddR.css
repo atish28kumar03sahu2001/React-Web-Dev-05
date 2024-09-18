@@ -1,27 +1,38 @@
-.DIV_FORM_D_EO{
+.EV_ODD_DIV_FRM{
     margin: 10px;
-    height: 40vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;
 }
-.DIV_FORM_D_EO_FRM{
+.EV_ODD_DIV_FRM_FORM{
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.FRM_IP{
-    width: 80px;
-    height: 40px;
-    font-size: 14px;
-    font-weight: 600;
-    border: 1px solid black;
+.DIV_FRM_OD_EV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
     margin: 10px;
 }
-.FRM_BTN{
+.ODD_EV_IP{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px;
+}
+.ODD_EV_P{
+    font-size: 14px;
+    font-weight: 600;
+}
+.ODD_EV_BTN{
     width: 80px;
     height: 40px;
     margin: 10px;
@@ -34,29 +45,17 @@
     font-weight: 600;
     cursor: pointer;
 }
-.EO_P{
+.EV_LIST{
+    border: 2px solid black;
+    width: 20vh;
+    overflow: scroll;
+    height: 40vh;
+}
+.EV_LIST::-webkit-scrollbar{display: none;}
+.EV_LIST_P{
     text-align: center;
     text-wrap: wrap;
     word-wrap: break-word;
     font-size: 14px;
     font-weight: 600;
-}
-.EO_CODE_DIV{
-    margin: 10px;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.PROB_CODE_D_C{
-    background-color: rgb(27, 25, 24);
-    border-radius: 10px;
-    margin: 10px;
-    width: 70%;
-}
-@media screen and (max-width: 768px){
-    .PROB_CODE_D_C{
-        width: 90%;
-    }
 }

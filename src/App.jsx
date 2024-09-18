@@ -10,6 +10,11 @@ import { Arithmetic } from './components/arithmetic/Arithmetic';
 import { EvenOdd } from './components/evenodd/EvenOdd';
 import { Greatest } from './components/greatest/Greatest';
 import { Ageper } from './components/ageofperson/Ageper';
+import { Leapyear } from './components/leapyear/Leapyear';
+import { Multiplication } from './components/multitable/Multiplication';
+import { EvenOddRR } from './components/evenoddrr/EvenOddRR';
+import { Posneg } from './components/posneg/Posneg';
+import { Swapping } from './components/swapping/Swapping';
 export const App = () => {
     return (
         <>
@@ -23,6 +28,11 @@ export const App = () => {
                     <Route path="/evenodd" element={<EvenOdd />} />
                     <Route path="/greatest" element={<Greatest />} />
                     <Route path="/ageofperson" element={<Ageper />} />
+                    <Route path="/leapyear" element={<Leapyear />} />
+                    <Route path="/multiplication" element={<Multiplication />} />
+                    <Route path="/evenoddrr" element={<EvenOddRR />}  />
+                    <Route path="/positivenegative" element={<Posneg />} />
+                    <Route path="/swapping" element={<Swapping />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

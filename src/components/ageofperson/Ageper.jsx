@@ -8,10 +8,10 @@ import { Age_Person } from "../code/Code";
 import { Copy } from "../pages/Copy";
 export const Ageper = () => {
     const dispatch = useDispatch();
-    const day = useSelector((state) => state.day);
-    const month = useSelector((state) => state.month);
-    const year = useSelector((state) => state.year);
-    const age = useSelector((state) => state.age);
+    const day = useSelector((state) => state.age.day);
+    const month = useSelector((state) => state.age.month);
+    const year = useSelector((state) => state.age.year);
+    const age = useSelector((state) => state.age.age);
 
     const HandleChange = (e) => {
         const {name, value} = e.target;

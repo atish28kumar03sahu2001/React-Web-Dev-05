@@ -1,0 +1,36 @@
+.DIV_FRM_POS_NEG{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.POS_NEG_IP{
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+}
+.POS_NEG_BTN{
+    border: none;
+    outline: none;
+    background: none;
+    background-color: rgb(6, 52, 74);
+    color: white;
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+.POS_NEG_P{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-weight: 600;
+}

@@ -1,0 +1,54 @@
+.SWAP_FRM_DIV{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SWAP_LBL{
+    font-size: 14PX;
+    font-weight: 600;
+    margin: 10px;
+}
+.SWAP_IP{
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    font-size: 14PX;
+    font-weight: 600;
+    text-align: center;
+}
+.SWAP_BTN{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: rgb(6, 52, 74);
+    color: white;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+.SWAP_P{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-weight: 600;
+}
+.SWAP_CODE_DIV{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+@media screen and (max-width: 1200px){
+    .SWAP_CODE_DIV{
+        flex-direction: column;
+        height: 150vh;
+    }    
+}
